@@ -11,7 +11,7 @@ func main() {
 	r := mux.NewRouter()
 	r.HandleFunc("/", HomeHandler)
 	log.Println("Listening at http://localhost:8080")
-	err := http.ListenAndServe("127.0.0.1:8080", r)
+	err := http.ListenAndServe("0.0.0.0:8080", r)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
 	}
