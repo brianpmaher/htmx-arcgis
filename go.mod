@@ -1,5 +1,5 @@
 module github.com/brianpmaher/htmx-arcgis
 
-go 1.22.5
+go 1.21.4
 
 require github.com/gorilla/mux v1.8.1
